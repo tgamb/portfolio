@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:500,700&display=swap" rel="stylesheet"/>
+    <script defer   src="slideController.js"></script>
+    <title>Thomas Gamble's Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="headshot">
+                <img class ="headshot" src="headshot.jpg" alt="headshot"/>
+            </div>
+            <div class="name">Thomas Gamble</div>
+        </header>
+        <div class="about">
+                <h1>About Me</h1>
+                <p>I am a software engineer with a background in product management. 
+                    After spending three years with a startup as a product manager, 
+                    I found myself with a desire for more technical skills
+                    that would allow me to build the features that my users were 
+                    asking for. It was this desire that brought me to General Assembly where I 
+                    learned to write code and bring my ideas to life. </p>
+        </div>
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img src="WeatherWeek.png" style="width:100%">
+          <div class="text"><p>Weather Week is a React application that retreives weather 
+              forecasts from a 3rd party API.</p><a href="https://github.com/tgamb/weather-week">Click here to view code</a>
+          </div>
+        </div>
+      
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">2 / 3</div> -->
+          <img src="SubscriptionApp.png" style="width:100%">
+          <div class="text">This app is a prototype built on the idea that a user could
+              enter credit card information and have that card update all of their 
+              subscriptions when a new card is obtained. Built using MongoDB, Express, 
+              React, and Node.js. <a href="https://github.com/tgamb/subscription-update-app">Click here to view code</a>
+          </div>
+        </div>
+      
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">3 / 3</div> -->
+          <img src="Blackjack.png" style="width:100%">
+          <div class="text">An interactive game of blackjack built using Javascript, HTML, and CSS.
+            <a href="https://github.com/tgamb/blackjack">Click here to view code</a>
+
+          </div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+        <!-- <div class="projects">
+            <img class="projectImg" src="Weatherweek.png" alt="WeatherApp"/>
+            <img class="projectImg" src="Blackjack.png" alt="BlackjackGame"/>
+            <img class="projectImg" src="SubscriptionApp.png" alt="SubscriptionApp"/>
+        </div> -->
+        <div class="skills">
+            <h1>Skills</h1>
+            <p>I am proficient in React, JavaScript, Node.js, HTML/CSS,
+                    Product Management, Scrum / Agile Development, JIRA,
+                    MongoDB, Git, GitHub, Heroku, and REST APIs. 
+
+                I also excel at listening to the needs of a stakeholder 
+                and turning those needs into deliverable items for my team. 
+            </p>
+            <!-- <p class="coming-soon">Coding languages coming soon</p> -->
+        </div>
+        <div class="images">
+                <img class="mountains" src="Mountains1.jpg" alt="Mountains1"/>
+                <img class="mountains" src="WindingRoad.jpg" alt="Winding Road"/>
+                <img class="mountains" src="Mountains2.jpg" alt="Mountains2"/>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://twitter.com/TGamb">Twitter</a>
+        <a href="https://www.linkedin.com/in/thomas-gamble-843126122/">LinkedIn</a> 
+        <a href="https://github.com/tgamb">GitHub</a>
+    </footer>
+</body>
+
+</html>
